@@ -77,20 +77,27 @@
 
 			.section-container-form{
 				width: 310px;
-				height: 35px;
+				
 				position: absolute;
 				right: 25px;
 				top: 0px;
+				
+				
+				
 			}
 			
 			.section-container-form input {
 				width: 295px;
 				height: 35px;
+				margin-bottom: 10px;
+				 padding: 0 0 0 15px;
+				
 			}
 			
 			.section-container-form textarea {
-				height: 35px;
+				height: 115px;
 				width: 310px;
+				padding-top: 15px;
 			}
 			
 			#up-dots{
@@ -98,6 +105,98 @@
 				left: 209px;
 				top: 177px;
 			}
+			
+		
+			
+			footer {
+				position: relative;
+			}
+			
+			.footer-bar {
+				height: 80px;
+				background-color: #06b4af;
+				text-align: center;
+				color: white;
+				top: 260px;
+				position: absolute;
+				width: 100%;
+			}
+			
+		
+			
+			#dots-footer {
+				position: absolute;
+				left: 50px;
+				top: 20px;
+			}
+			
+			#phone {
+     		 background-image: url(../imgages-2/phone.png) center left no-repeat;
+    		top:40px;
+    		right:135px;
+    		position:absolute;
+			}
+			.telephone {
+				position: absolute;
+				right: 31px;
+				top: 22px;
+			}
+			
+			h2 {
+				text-align: center;
+				color: brown;
+				
+			}
+			
+			#table-text p {
+				color: brown;
+			}
+			
+			#table-container {
+				position: relative;
+				/*width: 218px;
+				height: 128px;*/
+				top: 240px;
+				}
+			
+				#table-text {
+				position: absolute;
+				top: 395px;
+				
+			}
+			
+			#submit-btn {
+				width: 155px;
+				height: 35px;
+				right: -4px;
+				position: absolute;
+			}
+			
+			 #schedule-table td {
+				background-color: #f6ede6;
+				 width: 217px;
+   				 height: 35px; 
+   				 color: #754b23;
+   				}
+			
+			#schedule-table th {
+				background-color: #f6ede6;
+				 width: 152;
+				 height: 35px; 
+				
+   				 color: #754b23;
+			}
+			
+			#dots-down {
+				position: absolute;
+				top: 455px; 
+				right: 205px;
+			}
+			
+			#schedule-table {
+			border-spacing: 10px;	
+			}
+			
 		</style>
 
 	</head>
@@ -146,20 +245,72 @@
 					</p>
 					<img id="up-dots" src="images-2/up-dots.png">
 				</div>
-				<div class="section-container-form">
-					<form>
-						<h5>Contact Form</h5>
-						<input class="orange" type="text" name="name" value="Name"/>
-						<input class="yellow" type="email" name="email" value="Email"/>
-						<input class="blue" type="text" name="phone" value="Phone"/>
-						<input class="orange" type="text" name="subject" value="Subject"/>
-						<textarea class="yellow" name="message">Message</textarea>
-						<button class="blue" id="submit-btn">
-							Send
-						</button>
-					</form>
-
-				</div>
+											<div class="section-container-form">
+											<form>
+											<h5>Contact Form</h5>
+											<input class="orange" type="text" name="name" value="Name"/>
+											<input class="yellow" type="email" name="email" value="Email"/>
+											<input class="blue" type="text" name="phone" value="Phone"/>
+											<input class="orange" type="text" name="subject" value="Subject"/>
+											<textarea class="yellow" name="message">Message</textarea>
+											<button class="blue" id="submit-btn">Send</button>
+											</form>
+											</div>
+													
+													<div id="table-text">
+													<p>For Phone orders, our schedule is:</p>
+													</div>
+													
+													
+													<div id="table-container">
+														
+														<table id="schedule-table">
+															<tr>
+															<th>Monday</th>
+															
+															
+															<td>09:00 - 17:00</td>
+															</tr>
+															<tr>
+															<th>Tuesday</th>
+															
+														
+															<td>09:00 - 17:00</td>
+															</tr>
+															<tr>
+															<th>Wednesday</th>
+															
+																
+															<td>09:00 - 19:00</td>
+														</tr>
+														<tr>
+															<th>Thursday</th>
+														<td>09:00 - 19:00</td>
+														</tr>
+														<tr>
+															<th>Friday</th>
+															<td>09:00 - 21:00</td>
+														</tr>
+														</table>
+														
+													</div>
+													
+													
+													<div id="dots-down">
+														<img src="images-2/down-dots.png"/>
+													</div>
+																		
+																		
+																		<footer>
+																		<div class="footer-bar">
+													
+																		<h4>Copyright 2014 Sweet Corner. All rights reserved.</h4></p>
+													
+																		<img id="phone" src="images-2/phone.png">
+																		<p class="telephone">800-264-2099</p>
+																		<img id="dots-footer" src="images-2/dots-footer.png">
+																		</div>
+																		</footer>
 			</div>
 
 			
